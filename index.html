@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="index.css">
+
+
+</head>
+<body>
+ 
+    <form action="https://www.instagram.com/accounts/login/" onsubmit=" return verifypass()" method="get">
+
+    
+    <div class="main">
+
+    
+
+    <div class="f1"> 
+        <label>NAME :</label>&nbsp &nbsp &nbsp &nbsp &nbsp
+
+        <input placeholder="Enter your name" class="mm" id="mmm" type="text" value="" onkeydown="return /[a-zA-Z]/i.test(event.key)"><br><br>
+    </div>
+
+    <div class="f2">
+        <label>E Mail :</label>&nbsp &nbsp &nbsp &nbsp &nbsp&nbsp
+        <input placeholder="Enter your mail" class="mm" id="mp"  type="email" value=""><br><br>
+        </div>
+    
+    <div class="f3">
+        <label>PASSWORD :</label>
+        <input placeholder="Enter your password" type="password" class="mm" id="mt" value=""><br><br>
+        <input value="Submit" type="submit" class="but" >
+    </div>
+    </div>
+    </form>
+
+
+
+    <script src="main.js"> </script>
+</body>
+</html>
